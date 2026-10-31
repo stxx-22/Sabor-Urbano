@@ -1,0 +1,22 @@
+FUENTES Y CRÉDITOS DE FOTOGRAFÍAS
+Las fotografías principales apuntan a archivos publicados en Wikimedia Commons. Revisa las fichas originales y conserva los créditos/licencias si reutilizas o redistribuyes las imágenes:
+
+1) Salchipapa Costeña.jpg — PapiPijuan — CC BY-SA 4.0
+https://commons.wikimedia.org/wiki/File:Salchipapa_Coste%C3%B1a.jpg
+
+2) Un Rico Perrito Caliente.jpg — ficha de Wikimedia Commons; revisar atribución/licencia en la página
+https://commons.wikimedia.org/wiki/File:Un_Rico_Perrito_Caliente.jpg
+
+3) Pizza pepperoni (34447975055).jpg — Snack-nieuws.nl — CC BY 2.0
+https://commons.wikimedia.org/wiki/File:Pizza_pepperoni_(34447975055).jpg
+
+4) Hamburguesa con papas fritas.jpg — Horacio Cambeiro — consultar licencia CC BY-SA en Commons
+https://commons.wikimedia.org/wiki/File:Hamburguesa_con_papas_fritas.jpg
+
+5) Hot dog with two sausages, 2025-11-29.jpg — Hekatlys — CC0
+https://commons.wikimedia.org/wiki/File:Hot_dog_with_two_sausages,_2025-11-29.jpg
+
+NOTA:
+- Las imágenes se cargan desde Wikimedia Commons y algunas fuentes alternativas externas; necesitan conexión a internet.
+- Las variantes, descripciones, dirección, horarios, precios y WhatsApp son ficticios para el demo.
+- No presentes el demo como menú real de un negocio. Cambia todos los datos antes de usarlo con un cliente.

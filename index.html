@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101010">
+  <meta name="description" content="Sabor Urbano: comida rápida con sabor costeño en Barranquilla.">
+  <title>Sabor Urbano | Street Food Caribe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Manrope:wght@400;500;600;700;800&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="topline">BARRANQUILLA · STREET FOOD CARIBE · SABOR SIN DISIMULO</div>
+  <header class="header">
+    <a class="brand" href="#inicio"><span class="brand-icon">SU<span>.</span></span><span>SABOR <b>URBANO</b><small>STREET FOOD CARIBE</small></span></a>
+    <button class="hamburger" id="hamburger" type="button" aria-label="Abrir navegación" aria-expanded="false" aria-controls="nav">☰</button>
+    <nav id="nav"><a href="#menu">Menú</a><a href="#costeno">Sabor costeño</a><a href="#nosotros">Nosotros</a><a href="#contacto">Contacto</a><button class="cart-button" id="openCart" type="button">Mi pedido <b id="cartCount">0</b></button></nav>
+  </header>
+  <main>
+    <section class="hero" id="inicio">
+      <div class="hero-glow"></div><div class="hero-inner">
+        <p class="kicker"><i></i> EL CARIBE SE SIRVE CALIENTE</p>
+        <h1>ANTOJO<br>CON <em>ACENTO.</em></h1>
+        <p class="hero-text">Salchipapas bien cargadas, perros con todo, mazorcadas brutales y pizzas para compartir. Aquí se viene a comer sabroso.</p>
+        <div class="hero-ctas"><a class="primary" href="#menu">EXPLORAR MENÚ <span>↗</span></a><a class="underlink" href="#costeno">Conoce el sabor costeño ↓</a></div>
+        <div class="hero-note"><span>✳</span><div><b>HECHO CON SABOR CARIBE</b><small>Porciones generosas. Antojos felices.</small></div></div>
+      </div>
+      <div class="hero-stamp">PURO<br><b>SABOR</b><small>DESDE LA COSTA</small></div>
+      <div class="hero-caption">01 / COMIDA RÁPIDA CON IDENTIDAD</div>
+    </section>
+    <div class="marquee"><div>SALCHIPAPA COSTEÑA ✳ PERRO CON TODO ✳ MAZORCADA ✳ BUTIFARRA ✳ QUESO COSTEÑO ✳ PIZZA ✳ SALCHIPAPA COSTEÑA ✳ PERRO CON TODO ✳</div></div>
+    <section class="menu section" id="menu">
+      <div class="section-head"><div><p class="eyebrow">ESCOGE TU ANTOJO</p><h2>EL MENÚ <em>URBANO</em></h2></div><p>De lo clásico a lo bien cargado. Escoge tu favorito, elige la versión y agrégalo al pedido.</p></div>
+      <div class="filters" id="filters">
+        <button class="filter active" data-filter="todos" type="button">Todo</button>
+        <button class="filter" data-filter="salchipapas" type="button">Salchipapas</button>
+        <button class="filter" data-filter="perros" type="button">Perros calientes</button>
+        <button class="filter" data-filter="mazorcas" type="button">Mazorcas</button>
+        <button class="filter" data-filter="desgranados" type="button">Desgranados</button>
+        <button class="filter" data-filter="hamburguesas" type="button">Hamburguesas</button>
+        <button class="filter" data-filter="sandwiches" type="button">Sándwiches</button>
+        <button class="filter" data-filter="patacones" type="button">Patacones</button>
+        <button class="filter" data-filter="alitas" type="button">Alitas</button>
+        <button class="filter" data-filter="pizzas" type="button">Pizzas</button>
+        <button class="filter" data-filter="bebidas" type="button">Bebidas</button>
+      </div>
+      <div class="grid" id="productGrid"></div>
+      <p class="menu-note">Los precios son demostrativos y pueden ajustarse según el negocio.</p>
+    </section>
+    <section class="coast" id="costeno"><div class="coast-art"><span>CARIBE</span><b>✳</b><small>SAZÓN DE LA CASA</small></div><div class="coast-copy"><p class="eyebrow light">ORGULLO DE NUESTRA TIERRA</p><h2>ESO TIENE<br><em>SUERO Y SABOR.</em></h2><p>La vuelta es con queso costeño, butifarra, maicitos, salsita de la casa y porciones que no vienen a jugar. Un homenaje a esos antojos que saben a Caribe.</p><div class="coast-pills"><span>QUESO COSTEÑO</span><span>BUTIFARRA</span><span>SUERO</span><span>MAICITOS</span></div><a href="#menu" class="primary">ME ANTOJÉ <span>↗</span></a></div></section>
+    <section class="feature section" id="nosotros"><div class="section-head"><div><p class="eyebrow">LA CASA INVITA</p><h2>EL PLAN ES<br><em>COMER BUENO.</em></h2></div><p>Somos un concepto de comida rápida inspirado en el sabor callejero de la Costa Caribe: abundante, alegre y sin complicaciones.</p></div><div class="values"><article><span>01</span><b>BUEN PRODUCTO</b><p>Ingredientes frescos y preparaciones hechas al momento.</p></article><article><span>02</span><b>PORCIONES GENEROSAS</b><p>Para matar el hambre de verdad y compartir si te provoca.</p></article><article><span>03</span><b>MUCHO SABOR</b><p>Combinaciones clásicas con ese toque costeño que nos identifica.</p></article></div></section>
+    <section class="cta"><div><p class="eyebrow light">¿YA SE TE HIZO AGUA LA BOCA?</p><h2>NO LO PIENSES<br><em>DEMÁS.</em></h2><p>Arma tu pedido y envíanoslo por WhatsApp.</p></div><a class="primary dark" href="#menu">ARMAR MI PEDIDO ↗</a></section>
+    <section class="contact section" id="contacto"><div><p class="eyebrow">PIDE, RECOGE O PREGUNTA</p><h2>EL ANTOJO<br>TE <em>ESPERA.</em></h2><p>Estamos en Barranquilla. Escríbenos para confirmar cobertura, horarios y disponibilidad.</p><a class="primary" id="contactWhatsApp" href="#">ESCRIBIR POR WHATSAPP ↗</a></div><div class="contact-box"><div><small>UBICACIÓN</small><b id="addressText">Barranquilla, Colombia</b></div><div><small>HORARIO DEMO</small><b>Lunes a domingo · 4:00 p. m. – 11:00 p. m.</b></div><div><small>REDES</small><b><a href="#" class="social">Instagram ↗</a> &nbsp; <a href="#" class="social">TikTok ↗</a></b></div></div></section>
+  </main>
+  <footer><a class="brand" href="#inicio"><span class="brand-icon">SU<span>.</span></span><span>SABOR <b>URBANO</b><small>STREET FOOD CARIBE</small></span></a><p>© <span id="year"></span> Sabor Urbano · Proyecto demostrativo de Mora Web Studio</p><a href="#inicio">VOLVER ARRIBA ↑</a></footer>
+  <div class="overlay" id="overlay"></div>
+  <aside class="drawer" id="drawer" aria-hidden="true"><div class="drawer-head"><div><small>RESUMEN DEL ANTOJO</small><h3>MI PEDIDO</h3></div><button id="closeCart" aria-label="Cerrar carrito" type="button">×</button></div><div class="cart-items" id="cartItems"><p class="empty">Tu pedido está vacío. ¡Vamos a arreglar eso! 🍟</p></div><div class="drawer-foot"><div class="total"><span>Total estimado</span><b id="cartTotal">$0</b></div><button class="primary full" id="checkout" type="button">ENVIAR PEDIDO POR WHATSAPP ↗</button><small>Precios demostrativos. El negocio confirma disponibilidad.</small></div></aside>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
